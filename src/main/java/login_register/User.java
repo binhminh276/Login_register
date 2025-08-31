@@ -15,8 +15,17 @@ public class User implements Serializable {
     private int roleid;
     private String phone;
     private Date createdDate;
+    
+    
 
-    // Getter & Setter
+    public User(int i, String email2, String username2, String fullname2, String password2, Object object, int j,
+			String phone2, java.sql.Date date) {
+		// TODO Auto-generated constructor stub
+	}
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	// Getter & Setter
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
