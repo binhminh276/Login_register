@@ -7,4 +7,6 @@ public interface UserService {
 	boolean checkExistEmail(String email);
 	boolean checkExistUsername(String username);
 	boolean checkExistPhone(String phone);
+	boolean sendResetPasswordEmail(String email);
+	boolean resetPassword(String token, String newPassword);
 }
